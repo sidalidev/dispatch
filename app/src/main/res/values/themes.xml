@@ -1,0 +1,16 @@
+<resources>
+    <!-- Window background matches the first frame, so the launch has no flash. -->
+    <style name="Theme.Dispatch" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+    <!-- The share screen is a sheet over the app you are sharing from. -->
+    <style name="Theme.Dispatch.Sheet" parent="@android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

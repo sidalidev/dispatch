@@ -1,0 +1,2 @@
+# Permissions Dispatch is allowed to request, one per line. Lines starting with # are ignored.
+# Dispatch requests none: no INTERNET, no QUERY_ALL_PACKAGES, nothing else.

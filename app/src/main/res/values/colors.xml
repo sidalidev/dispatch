@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Launch window: the page color, cream, so the first frame has no flash. -->
+    <color name="bg">#FFFBF7EF</color>
+    <!-- The color of Dispatch, lavender, on the icon. -->
+    <color name="brand">#FF7A6FB0</color>
+</resources>

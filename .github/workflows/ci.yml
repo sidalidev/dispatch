@@ -1,0 +1,26 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: '21' }
+      # The Ubuntu runner ships the Android SDK; Gradle fetches the platform it needs.
+      - name: Unit tests, lint, release build (unsigned)
+        run: ./gradlew --no-daemon :app:testDebugUnitTest :app:lintDebug :app:lintRelease :app:assembleDebug :app:assembleRelease -Punsigned
+      - name: Never INTERNET or QUERY_ALL_PACKAGES
+        run: |
+          if grep -rlE 'android.permission.(INTERNET|QUERY_ALL_PACKAGES)' app/build/intermediates/merged_manifest; then exit 1; fi
+      - name: Permissions, text, security review and changelog
+        run: bash .github/checks.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dispatch-unsigned
+          path: app/build/outputs/apk/release/*.apk

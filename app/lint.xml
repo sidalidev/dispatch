@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Dispatch lists share targets through <queries> with SEND intents; it never asks for QUERY_ALL_PACKAGES. -->
+    <issue id="QueryAllPackagesPermission" severity="error" />
+    <issue id="HardcodedText" severity="error" />
+    <issue id="UseKtx" severity="ignore" />
+    <issue id="AndroidGradlePluginVersion" severity="ignore" />
+    <issue id="GradleDependency" severity="ignore" />
+    <issue id="NewerVersionAvailable" severity="ignore" />
+    <issue id="LocalContextResourcesRead" severity="ignore" />
+</lint>

@@ -1,0 +1,1 @@
+Its own color, lavender, on the icon and in the app, in light and dark. New rounded paper plane icon. New embedded type: Bricolage Grotesque and Figtree. Contrast checked to WCAG AA. First release, updated through Obtainium.

@@ -1,0 +1,20 @@
+The Android share menu shuffles its apps, repeats them (Feed, Messages, Reels, Stories) and shows people at random. Dispatch is a share menu you arrange yourself.
+
+Pin Dispatch once at the top of the system share menu. From then on, share as usual, tap Dispatch, and your favorites are there, in the order you chose.
+
+<b>Your list</b>
+* Add any app that can receive what you share, down to the exact screen: keep Instagram Messages, hide Stories.
+* Reorder by touch and hold, or with Move up and Move down.
+* Other apps stay one tap away, sorted by name.
+
+<b>Built-in actions</b>
+* Copy: links are cleaned of tracking parameters (utm, fbclid, gclid, igshid, si on YouTube and Spotify, mc).
+* Copy image: puts the shared image on the clipboard.
+* Save: writes what you shared to the folder you pick.
+
+<b>Private by construction</b>
+* No permission at all, not even internet access.
+* No account, no analytics, no ads. It does not count what you share or where.
+* "Remember last used" is off unless you turn it on.
+
+Works on any Android 11+ phone, built and tested for GrapheneOS.

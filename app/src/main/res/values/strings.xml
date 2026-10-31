@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name" translatable="false">Dispatch</string>
+    <string name="tagline">Your share menu, in your order.</string>
+
+    <!-- hero -->
+    <string name="hero_share">Share</string>
+    <string name="hero_target">Your app</string>
+    <string name="hero_description">Animation: content leaves an app, goes through Dispatch and lands in the app you chose.</string>
+
+    <!-- how it works -->
+    <string name="how_title">How it works</string>
+    <string name="step1_title">Share from any app</string>
+    <string name="step1_body">Tap Share, as usual.</string>
+    <string name="step2_title">Choose Dispatch</string>
+    <string name="step2_body">Pin it once in the share menu and it stays first.</string>
+    <string name="step3_title">Tap your app</string>
+    <string name="step3_body">Your favorites, in your order, every time.</string>
+    <string name="pin_button">How to pin Dispatch first</string>
+
+    <!-- pin sheet -->
+    <string name="pin_title">Pin Dispatch first</string>
+    <string name="pin_step1">Open the share menu from any app, or tap Try it below.</string>
+    <string name="pin_step2">Touch and hold Dispatch.</string>
+    <string name="pin_step3">Tap Pin. Dispatch now comes first in every share menu.</string>
+    <string name="pin_note">Android does not let any app replace its share menu. Pinning Dispatch is the next best thing: one tap, then your own list.</string>
+    <string name="pin_try">Try it</string>
+    <string name="pin_try_text">Dispatch</string>
+    <string name="pin_done">Done</string>
+
+    <!-- settings -->
+    <string name="favorites">Favorites</string>
+    <string name="favorites_empty">No favorites yet. Pin apps from the list below, or from the share screen.</string>
+    <string name="favorites_hint">Touch and hold to drag. Tap for more.</string>
+    <string name="add_apps">Add apps</string>
+    <plurals name="apps_count">
+        <item quantity="one">%d app can receive shares</item>
+        <item quantity="other">%d apps can receive shares</item>
+    </plurals>
+    <string name="hidden">Hidden</string>
+    <string name="hidden_body">Hidden apps never show in Dispatch.</string>
+    <string name="options">Options</string>
+    <string name="remember_title">Remember last used</string>
+    <string name="remember_body">Shows the app you used last above your favorites. Off by default; nothing else is ever stored.</string>
+    <string name="version">Version %1$s</string>
+    <string name="end_of_list">That\'s all.</string>
+
+    <!-- actions on a target -->
+    <string name="pin">Pin</string>
+    <string name="unpin">Unpin</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
+    <string name="move_up">Move up</string>
+    <string name="move_down">Move down</string>
+    <string name="move_earlier">Move earlier</string>
+    <string name="move_later">Move later</string>
+    <string name="send_to">Send</string>
+    <string name="more">More</string>
+
+    <!-- share screen -->
+    <string name="close">Close</string>
+    <string name="copy">Copy</string>
+    <string name="copy_image">Copy image</string>
+    <string name="save">Save</string>
+    <string name="last_used">Last used</string>
+    <string name="other_apps">Other apps</string>
+    <string name="share_empty_favorites">Pin the apps you use from the list below. They stay here, in your order.</string>
+    <string name="share_hint">Touch and hold an app to move it.</string>
+    <string name="nothing_to_share">Nothing to share</string>
+    <string name="no_targets">No app on this phone can receive this.</string>
+    <string name="kind_link">Link</string>
+    <string name="kind_text">Text</string>
+    <string name="kind_image">Image</string>
+    <string name="kind_video">Video</string>
+    <string name="kind_file">File</string>
+    <plurals name="files_count">
+        <item quantity="one">%d file</item>
+        <item quantity="other">%d files</item>
+    </plurals>
+    <plurals name="images_count">
+        <item quantity="one">%d image</item>
+        <item quantity="other">%d images</item>
+    </plurals>
+    <plurals name="videos_count">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d videos</item>
+    </plurals>
+    <string name="kind_and_size">%1$s, %2$s</string>
+    <string name="copied">Copied</string>
+    <plurals name="copied_cleaned">
+        <item quantity="one">Copied, %d tracker removed</item>
+        <item quantity="other">Copied, %d trackers removed</item>
+    </plurals>
+    <string name="copy_failed">This image could not be read.</string>
+    <string name="saved">Saved</string>
+    <string name="save_failed">Could not save. Try another folder.</string>
+    <string name="open_failed">%1$s could not be opened.</string>
+    <string name="clip_text">Text</string>
+    <string name="clip_image">Image</string>
+    <string name="default_text_name">Shared text.txt</string>
+
+    <!-- about -->
+    <string name="about">About</string>
+    <string name="about_row">About Dispatch</string>
+    <string name="about_row_detail">Principles, permissions, privacy, security</string>
+    <string name="back">Back</string>
+    <string name="principles">Our principles</string>
+    <string name="principle1">Your data belongs to you.</string>
+    <string name="principle2">No account. No tracking. No ads.</string>
+    <string name="principle3">Nothing leaves your device unless you choose it.</string>
+    <string name="principle4">The code will be published, so anyone can check this.</string>
+    <string name="version_title">Version</string>
+    <string name="whats_new">What\'s new</string>
+    <string name="updates_note">Updates come from the GitHub releases through Obtainium. Dispatch has no internet access, so it cannot update itself.</string>
+    <string name="fonts_credit">Type: Bricolage Grotesque and Figtree, under the SIL Open Font License.</string>
+    <string name="security">Security</string>
+    <string name="last_review">Last security review: %1$s</string>
+    <string name="audit_state">Internal review. No external audit yet.</string>
+    <string name="signing_certificate">Signing certificate</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="show_full">Show the full fingerprint</string>
+    <string name="show_less">Show the short fingerprint</string>
+    <string name="report_issue">Report a security issue</string>
+    <string name="security_subject">Dispatch security issue</string>
+    <string name="links">Links</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="contact">Contact</string>
+    <string name="footer">Made by Sid · sidali.dev</string>
+    <string name="open_site">Open sidali.dev</string>
+    <string name="no_mail_app">No email app on this phone. Write to %1$s.</string>
+    <string name="no_browser">No browser on this phone to open %1$s.</string>
+
+    <!-- permissions -->
+    <string name="permissions">Permissions</string>
+    <string name="permissions_none_detail">None asked. What Android allows, and how to change it</string>
+    <string name="permissions_intro">Dispatch asks for no permission. It works with what Android gives every app, and you can check each line below in Settings.</string>
+    <string name="permissions_on_this_phone">On this phone</string>
+    <string name="permissions_hint">Read again each time you come back. Turning something on or off in Settings changes nothing in Dispatch, because it needs none of it.</string>
+    <string name="permissions_without">What works without a permission</string>
+    <string name="permissions_share_menu">Appearing in the share menu: any app can offer to receive what you share.</string>
+    <string name="permissions_visibility">Seeing the apps that can receive a share, and only those. Not your full list of apps, so there is no switch for it.</string>
+    <string name="access_permissions">Permissions</string>
+    <string name="access_permissions_why">Dispatch requests none: no internet, no storage, no contacts. Save uses the folder picker instead.</string>
+    <string name="access_notifications">Notifications</string>
+    <string name="access_notifications_why">Not used. Dispatch never sends a notification, whatever this is set to.</string>
+    <string name="access_battery">Battery</string>
+    <string name="access_battery_why">Not needed. Dispatch only runs while its screen is open, so Optimized is right. Settings shows it under App battery usage.</string>
+    <string name="access_none">None</string>
+    <plurals name="access_granted">
+        <item quantity="one">%d allowed</item>
+        <item quantity="other">%d allowed</item>
+    </plurals>
+    <string name="access_on">On</string>
+    <string name="access_off">Off</string>
+    <string name="access_optimized">Optimized</string>
+    <string name="access_unrestricted">Unrestricted</string>
+    <string name="access_check">Check in Settings</string>
+    <string name="access_turn_on">Turn on in Settings</string>
+    <string name="access_turn_off">Turn off in Settings</string>
+    <string name="access_change">Change in Settings</string>
+
+    <!-- what leaves your device -->
+    <string name="what_leaves">What leaves your device</string>
+    <string name="leaves_nothing">Nothing. This app has no internet access. Dispatch only hands what you share to the app you pick.</string>
+    <string name="leaves_when_you_choose">Only when you choose it</string>
+    <string name="leaves_send">Tapping an app hands it what you shared, and nothing else.</string>
+    <string name="leaves_copy">Copy and Copy image put it on the clipboard. The app you paste into reads it.</string>
+    <string name="leaves_save">Save writes it into the folder you pick.</string>
+    <string name="leaves_stays">Stays on this device</string>
+    <string name="stays_choices">Your pinned apps, in your order, and your hidden apps.</string>
+    <string name="stays_last">The Remember last used switch. Only while it is on, the last app you used: one entry, replaced each time.</string>
+    <string name="stays_images">Private copies of the last three images you copied, so pasting keeps working.</string>
+    <string name="stays_backup">Excluded from backups and phone to phone transfers. No counters, no history.</string>
+
+    <!-- erase everything -->
+    <string name="erase_title">Erase everything</string>
+    <string name="erase_hint">Resets favorites and settings, and deletes the private copies of copied images.</string>
+    <string name="erase_confirm_title">Erase everything</string>
+    <string name="erase_confirm_body">Your favorites, hidden apps and settings are reset, and the private copies of copied images are deleted. Dispatch starts again as on first launch. This cannot be undone.</string>
+    <string name="erase_word" translatable="false">ERASE</string>
+    <string name="erase_type">Type %1$s to confirm.</string>
+    <string name="erase_field">Confirmation word</string>
+    <string name="erase">Erase</string>
+    <string name="cancel">Cancel</string>
+    <string name="erased">Everything was erased.</string>
+</resources>

@@ -1,0 +1,1 @@
+Permissions screen with live state and shortcuts to the exact Settings pages.

@@ -1,0 +1,22 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application android:label="ShareCheck">
+        <activity android:name=".Main" android:exported="true" android:label="ShareCheck">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+        </activity>
+        <!-- A second target in the same app, to check that targets are activities, not apps. -->
+        <activity android:name=".Other" android:exported="true" android:label="ShareCheck Story">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <!-- Reads the clipboard like a messaging app would, once it has focus. -->
+        <activity android:name=".Paste" android:exported="true" android:label="PasteCheck" />
+    </application>
+</manifest>
